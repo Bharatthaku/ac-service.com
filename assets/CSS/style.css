@@ -54,18 +54,15 @@
 }
 
 .menu ul li a:hover,
-.active {
+.active1 {
   background: #2E86C1;
   border: none;
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.4s ease .3s;
-  color: #fff;
+  color: #fff !important;
 }
 
-.active a{
-  color: #fff;
-}
 
 .checkbtn {
   font-size: 30px;
@@ -1290,6 +1287,14 @@ h5.small {
   .w3l-footer-29-main a.navbar-brand {
     font-size: 26px;
   }
+
+  .w3l-footer-29-main .footer-list-29 {
+    width: 50%;
+  }
+
+  .w3l-footer-29-main .footer-sm {
+    width: 72 %;
+  }
 }
 
 /*--//w3l-footer-29-main--*/
@@ -1346,7 +1351,7 @@ h5.small {
     font-size: 20px;
   }
 
-  .menu a:hover,a.active {
+  .menu a:hover,a.active1 {
     background: none;
     color: #0082e6;
   }
